@@ -111,11 +111,11 @@ Salary: R...
 // let employee = Object.assign({}, person);
 // console.log(employee);
 // Enumerating object
-let person = {
-    name: 'Godwin',
-    surname: 'Dzvapatsra',
-    jobTitle: 'Head Of Curriculum'
-}
+// let person = {
+//     name: 'Godwin',
+//     surname: 'Dzvapatsra',
+//     jobTitle: 'Head Of Curriculum'
+// }
 // for(let key in person) {
 //     console.log(`${key}: ${person[key]}`);
 // }
@@ -136,8 +136,8 @@ let person = {
 - values()
 - .entries()
 */
-let entries = Object.entries(person);
-console.log(entries);
+// let entries = Object.entries(person);
+// console.log(entries);
 // let listOfKeys = Object.keys(person);
 // console.log(listOfKeys);
 // let listOfValues = Object.values(person);
@@ -159,4 +159,12 @@ console.log(entries);
 // document.write(p2.name);
 // document.write(p2.surname);
 // document.write(p2.count);
-
+// Adding element 5 to position 2,
+// splice(position, num)
+// If num is zero, then do not remove any element after
+// the current position.
+// data.splice(3, 0,  5);
+// console.log(data);
+// console.log("===============")
+// data.splice(3, 4,  5);
+// console.log(data);
